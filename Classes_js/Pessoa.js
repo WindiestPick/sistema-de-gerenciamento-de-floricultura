@@ -8,16 +8,16 @@ export class Pessoa{
         this.endereco = endereco;
     }
     cadastraFornecedor(menu){
-        menu.innerHTML += "<li><a href='./cadastrarFornecedor.php'>Cadastar novo fornecedor</a></li><br><br>"
+        throw new Error("Implemente o Metodo abstrato");
     }
     geraPedido(menu){
-        menu.innerHTML += "<li><a href='./gerarPedido.php'>Fazer um novo pedido</a></li><br><br>";
+        throw new Error("Implemente o Metodo abstrato");
     }
     cadastarCliente(menu){
-        menu.innerHTML += "<li><a href='./cadastrarCliente.php'>Cadastar novo cliente</a></li><br><br>";
+        throw new Error("Implemente o Metodo abstrato");
     }
     cadastarProduto(menu){
-        menu.innerHTML += "<li><a href='./cadastrarProduto.php'>Cadastar novo produto</a></li><br><br>";
+        throw new Error("Implemente o Metodo abstrato");
     }
 
 }

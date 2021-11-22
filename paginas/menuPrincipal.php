@@ -11,14 +11,6 @@
         include_once("../connect.php");
 
         $tipo = $_GET["usuario"];
-
-        $criar = "<script>if('". $tipo ."' == 'gerente'){ 
-          criaGerente();
-        }else if('". $tipo ."'=='funcionario'){
-          criaFuncionario();
-        }else{
-          criaGerente();
-        }</script>";
     ?>
 
         </head>
