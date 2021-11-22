@@ -12,7 +12,7 @@ export class Gerente extends Pessoa{
 
     }
     cadastraFuncionario(){
-
+        menu.innerHTML += "<li><a href='./cadastrarFuncionario.php'>Cadastar novo Funcionario</a></li><br><br>";
     }
     direcionaEntrega(){
         

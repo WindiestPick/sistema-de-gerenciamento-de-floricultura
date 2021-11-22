@@ -24,9 +24,15 @@ function criaGerente(){
     texto.innerHTML = `Código: ${gerente.idFuncionario}<br>
     Funcionário: ${gerente.nomeFuncionario}<br>
     CPF: ${gerente.cpfFuncionario}<br>
-    Setor: ${gerente.setor}
+    Setor: ${gerente.setor}<br>
     Gerente: Sim
-    `
+    `;
+    let menu = document.getElementById("menu");
+    gerente.cadastraFornecedor(menu);
+    gerente.cadastarCliente(menu);
+    gerente.cadastarProduto(menu);
+    gerente.geraPedido(menu);
+    gerente.cadastraFuncionario(menu);
 }
 
 function criaCliente(){
@@ -35,6 +41,8 @@ function criaCliente(){
     Cliente: ${cliente.nomeCliente}<br>
     CPF: ${cliente.cpf}<br>
     `
+    let menu = document.getElementById("menu");
+    cliente.geraPedido(menu);
 }
 
 

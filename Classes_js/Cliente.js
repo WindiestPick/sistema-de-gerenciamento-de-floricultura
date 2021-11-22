@@ -6,7 +6,7 @@ export class Cliente{
         this.endereco = endereco;
         this.telefone = telefone;
     }
-    geraPedido(){
-        
+    geraPedido(menu){
+        menu.innerHTML += "<li><a href='./gerarPedido.php'>Fazer um novo pedido</a></li><br><br>";
     }
 }
