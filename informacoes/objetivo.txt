@@ -1,0 +1,11 @@
+SISTEMA: SISTEMA INFORMATIZADO DE FLORICULTURAS
+Objetivos do Sistema:
+Possibilitar o cadastro de vendas (que incluem as vendas realizadas no próprio
+balcão da floricultura, as vendas por telefone ou as vendas pela Internet)
+possibilitar também o cadastro de produtos, fornecedores, clientes, convênios,
+funcionários e arranjos e fornecer ao gerente, relatórios como: de clientes
+devedores, de clientes aniversariantes, de produtos por fornecedor, de produtos
+em estoque, de entregas por funcionário e de entregas por determinado período.
+O gerente pode controlar as entregas, distribuindo-as aos funcionários para que
+sejam realizadas e atribuir as comissões devidas aos mesmos, bem como
+cancelá-las quando solicitado.
