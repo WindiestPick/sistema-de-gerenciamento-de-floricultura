@@ -27,15 +27,19 @@
         </nav>
           
     <article>
-        <form action="../paginas_php/fornecedor.php" method="get">
-            <label>Digite o id do fornecedor:</label>
+        <form action="../paginas_php/cliente.php" method="get">
+            <label>Digite o id do cliente:</label>
             <input type="text" name="id"><br><br>
-            <label>Digite o cnpj do fornecedor:</label>
-            <input type="text" name="cnpj"><br><br>
-            <label>Digite a data de cadastro do fornecedor:</label>
+            <label>Digite o nome do cliente:</label>
+            <input type="text" name="nome"><br><br>
+            <label>Digite a o cpf do cliente:</label>
+            <input type="text" name="cpf"><br><br>
+            <label>Digite o endereco:</label>
+            <input type="text" name="end"><br><br>
+            <label> Digite o telefone do cliente</label>
+            <input type="text" name="telefone"><br><br>
+            <label> Digite a data de nacimento do cliente</label>
             <input type="text" name="data"><br><br>
-            <label>Digite o nome do fornecedor:</label>
-            <input type="text" name="nome"><br>
             <input type="submit" value="Cadastrar">
         </form>
     </article>
