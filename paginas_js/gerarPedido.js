@@ -2,6 +2,7 @@ import {Funcionario} from "../Classes_js/Funcionario.js"
 import {Gerente} from "../Classes_js/Gerente.js"
 import {Cliente} from "../Classes_js/Cliente.js"
 
+
 let texto = document.getElementById("text");
 
 
@@ -29,10 +30,12 @@ function criaCliente(){
     let menu = document.getElementById("menu");
     cliente.geraPedido(menu);
 }
+let cont_input = 1;
 function novoProduto(){
+    cont_input++
     let produtos = document.getElementById("produtos");
-    produtos.innerHTML += "<label>Digite o id do Produto:</label> <input type='text' name='idpro'> <br> <br>"
-
+    produtos.innerHTML += "<label>Digite o id do Produto:</label> <input type='text' name='idpro"+ cont_input +"'> <br> <br>"
+    
 }
 
 

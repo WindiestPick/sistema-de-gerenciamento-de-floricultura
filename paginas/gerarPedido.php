@@ -7,6 +7,7 @@
     <title>Lotus Floricultura</title>
     <link rel="stylesheet" type="text/css" href="../scipts_css/Geral.css">
     <script type="module" src="../paginas_js/gerarPedido.js"></script>
+    <script type="module" src="../Classes_js/Produtos.js"></script>
     <?php
         include_once("../connect.php");
 
@@ -29,19 +30,9 @@
         </nav>
           
     <article>
-        <p> <?php 
-        if ($result->num_rows > 0) {
-            // output data of each row
-            while($row = $result->fetch_assoc()) {
-              echo "id do Produto: " . $row["idProduto"]. " - Name: " . " " . $row["nomeProduto"]. " " . $row["nomeProduto"] . " " . $row["valor"] . " " . $row["estoque"] ."<br>";
-            }
-          } else {
-            echo "0 results";
-          }
-          $conn->close();
-        ?> </p>
+        <iframe src="../paginas_php/iframeProduto.php" height="100" width="100%" title="Iframe Example"></iframe>
 
-        <form action="../paginas_php/produto.php" method="get">
+        <form action="../paginas_php/pedido.php" method="get">
             <label>Digite o id do cliente:</label>
             <input type="text" name="idcli"><br><br>
             <label>Digite o id do Produto:</label>
@@ -56,7 +47,6 @@
     <footer>
         <h3 id="acesso"> Você logou como <?php echo $tipo?></h3>
     </footer>
-        
 </body>
 </html>
 </html>
