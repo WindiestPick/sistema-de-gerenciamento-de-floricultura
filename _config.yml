@@ -6,7 +6,7 @@ config:
 
 lsi: false
 safe: true
-source: [you project here]
+source: [sistema-de-gerenciamento-de-floricultura]
 incremental: false
 highlighter: rouge
 gist:
