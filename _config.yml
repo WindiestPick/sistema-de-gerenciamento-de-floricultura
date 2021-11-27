@@ -1,9 +1,5 @@
 theme: jekyll-theme-hacker
 
-config:
-
-
-
 lsi: false
 safe: true
 source: [sistema-de-gerenciamento-de-floricultura]
