@@ -7,12 +7,14 @@
 * Estado: Acre
 * Curso: Sistemas de Informação
 ---
-> sp
 
+> -
+> -
+> -
+> -
+> -
+> -
 
-
-
-> ace
 ## Objetivo Geral
 
 ### Objetivos do Sistema
