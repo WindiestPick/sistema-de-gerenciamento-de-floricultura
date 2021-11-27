@@ -1,5 +1,5 @@
 # Sistema de Informatização de Floriculturas
--------------
+---
 ### Informações do criador:
 * Autor: Gustavo Henrique Malaquias da Silva Paula
 * Idade: 21
@@ -7,8 +7,7 @@
 * Estado: Acre
 * Curso: Sistemas de Informação
 
-
--------------
+---
 
 
 ## Objetivo Geral
