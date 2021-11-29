@@ -31,24 +31,36 @@ function criaCliente(){
     cliente.geraPedido(menu);
 }
 let cont_input = 1;
+let contador = document.getElementById("contador");
 function novoProduto(){
     cont_input++
     let produtos = document.getElementById("produtos");
-    produtos.innerHTML += "<label>Digite o id do Produto:</label> <input type='text' name='idpro"+ cont_input +"'> <br> <br>"
-    
+    produtos.innerHTML += "<label>Digite o id do Produto:</label> <input type='text' name='idpro"+ cont_input +"'> <br> <br>";
+    contador.value = cont_input;
 }
 
 
-let t = document.getElementById("acesso").innerHTML;
-let separado = t.split(" ");
+contador.value = cont_input;
+let botao = document.getElementById("botao");
+let url = window.location.href;
+ 
+function parametrosUrl(url){
+    let allParameters = url.split("?");
+    allParameters.splice(0,1);
+    let oneParameters = allParameters[0].split("=");
+    oneParameters.splice(0,1);
+    acesso.innerHTML = "Você entrou como " + oneParameters[0];
+    return oneParameters[0];
+}
 
-if (separado[4] == "funcionario"){
+let separado = parametrosUrl(url);
+
+if (separado == "funcionario"){
     criaFuncionario();
-}else if(separado[4] == "gerente"){
+}else if(separado == "gerente"){
     criaGerente();
 }else{
     criaCliente();
 }
 
-let botao = document.getElementById("botao");
 botao.onclick = novoProduto;

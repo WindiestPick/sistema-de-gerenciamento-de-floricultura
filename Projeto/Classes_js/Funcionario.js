@@ -12,16 +12,16 @@ export class Funcionario extends Pessoa{
         this._comicao = valor;
     }
     cadastraFornecedor(menu){
-        menu.innerHTML += "<li><a href='./cadastrarFornecedor.php?usuario=funcionario'>Cadastar novo fornecedor</a></li>"
+        menu.innerHTML += "<li><a href='./cadastrarFornecedor.html?usuario=funcionario'>Cadastar novo fornecedor</a></li>"
     }
     geraPedido(menu){
-        menu.innerHTML += "<li><a href='./gerarPedido.php?usuario=funcionario'>Fazer um novo pedido</a></li>";
+        menu.innerHTML += "<li><a href='./gerarPedido.html?usuario=funcionario'>Fazer um novo pedido</a></li>";
     }
     cadastarCliente(menu){
-        menu.innerHTML += "<li><a href='./cadastrarCliente.php?usuario=funcionario'>Cadastar novo cliente</a></li>";
+        menu.innerHTML += "<li><a href='./cadastrarCliente.html?usuario=funcionario'>Cadastar novo cliente</a></li>";
     }
     cadastarProduto(menu){
-        menu.innerHTML += "<li><a href='./cadastrarProduto.php?usuario=funcionario'>Cadastar novo produto</a></li>";
+        menu.innerHTML += "<li><a href='./cadastrarProduto.html?usuario=funcionario'>Cadastar novo produto</a></li>";
     }
 }
 

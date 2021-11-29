@@ -6,28 +6,28 @@ export class Gerente extends Pessoa{
         this.eGerente = eGerente;
     }
     cadastraFornecedor(menu){
-        menu.innerHTML += "<li><a href='./cadastrarFornecedor.php?usuario=gerente'>Cadastar novo fornecedor</a></li>"
+        menu.innerHTML += "<li><a href='./cadastrarFornecedor.html?usuario=gerente'>Cadastar novo fornecedor</a></li>"
     }
     geraPedido(menu){
-        menu.innerHTML += "<li><a href='./gerarPedido.php?usuario=gerente'>Fazer um novo pedido</a></li>";
+        menu.innerHTML += "<li><a href='./gerarPedido.html?usuario=gerente'>Fazer um novo pedido</a></li>";
     }
     cadastarCliente(menu){
-        menu.innerHTML += "<li><a href='./cadastrarCliente.php?usuario=gerente'>Cadastar novo cliente</a></li>";
+        menu.innerHTML += "<li><a href='./cadastrarCliente.html?usuario=gerente'>Cadastar novo cliente</a></li>";
     }
     cadastarProduto(menu){
-        menu.innerHTML += "<li><a href='./cadastrarProduto.php?usuario=gerente'>Cadastar novo produto</a></li>";
+        menu.innerHTML += "<li><a href='./cadastrarProduto.html?usuario=gerente'>Cadastar novo produto</a></li>";
     }
-    gerarRelatorio(){
-
+    gerarRelatorio(menu){
+        menu.innerHTML += "<li><a href='./gerarRelatorio.html?usuario=gerente'>Relatorios</a></li>";
     }
-    cancelarEntregas(){
-
+    cancelarEntregas(menu){
+        menu.innerHTML += "<li><a href='./cancelarEntregas.html?usuario=gerente'>Cancelar Entregas</a></li>";
     }
-    cadastraFuncionario(){
-        menu.innerHTML += "<li><a href='./cadastrarFuncionario.php?usuario=<?php echo $tipo?>'>Cadastar novo Funcionario</a></li>";
+    cadastraFuncionario(menu){
+        menu.innerHTML += "<li><a href='./cadastrarFuncionario.html?usuario=gerente'>Cadastar novo Funcionario</a></li>";
     }
-    direcionaEntrega(){
-        
+    direcionaEntrega(menu){
+        menu.innerHTML += "<li><a href='./direcionarEntregas.html?usuario=gerente'>Direcionar Entregas</a></li>";
     }
 
 }

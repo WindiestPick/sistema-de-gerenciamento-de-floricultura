@@ -33,6 +33,9 @@ function criaGerente(){
     gerente.cadastarProduto(menu);
     gerente.geraPedido(menu);
     gerente.cadastraFuncionario(menu);
+    gerente.cancelarEntregas(menu);
+    gerente.direcionaEntrega(menu);
+    gerente.gerarRelatorio(menu);
 }
 
 function criaCliente(){
@@ -45,13 +48,23 @@ function criaCliente(){
     cliente.geraPedido(menu);
 }
 
+let url = window.location.href;
 
-let t = document.getElementById("acesso").innerHTML;
-let separado = t.split(" ");
+function parametrosUrl(url){
+    let acesso = document.getElementById("acesso");
+    let allParameters = url.split("?");
+    allParameters.splice(0,1);
+    let oneParameters = allParameters[0].split("=");
+    oneParameters.splice(0,1);
+    acesso.innerHTML = "Você entrou como " + oneParameters[0];
+    return oneParameters[0];
+}
 
-if (separado[4] == "funcionario"){
+let separado = parametrosUrl(url);
+
+if (separado == "funcionario"){
     criaFuncionario();
-}else if(separado[4] == "gerente"){
+}else if(separado == "gerente"){
     criaGerente();
 }else{
     criaCliente();

@@ -30,12 +30,22 @@ function criaCliente(){
     cliente.geraPedido(menu);
 }
 
-let t = document.getElementById("acesso").innerHTML;
-let separado = t.split(" ");
+let url = window.location.href;
 
-if (separado[4] == "funcionario"){
+function parametrosUrl(url){
+    let allParameters = url.split("?");
+    allParameters.splice(0,1);
+    let oneParameters = allParameters[0].split("=");
+    oneParameters.splice(0,1);
+    acesso.innerHTML = "Você entrou como " + oneParameters[0];
+    return oneParameters[0];
+}
+
+let separado = parametrosUrl(url);
+
+if (separado == "funcionario"){
     criaFuncionario();
-}else if(separado[4] == "gerente"){
+}else if(separado == "gerente"){
     criaGerente();
 }else{
     criaCliente();

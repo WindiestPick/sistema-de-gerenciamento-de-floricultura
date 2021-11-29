@@ -1,23 +1,43 @@
 <?php
 include_once("../connect.php");
-
-$idpro = $_GET["idpro"];
 $idcli = $_GET["idcli"];
+$contador = $_GET["contador"];
+$produtos = [];
+ 
+for ($i = 0; $i < $contador; $i++){
+    $idpro = $_GET["idpro" . $i + 1];
+    $produtos[] = $idpro;
+}
+$valor = 0;
+$total = 0;
+
+for ($i = 0; $i < $contador; $i++){
+    $sqlproduto = "SELECT * FROM produtos WHERE idProduto = $produtos[$i]";
+    $resultPro = $conn->query($sqlproduto);
+
+    if ($resultPro->num_rows > 0) {
+        // output data of each row
+        while($row = $resultPro->fetch_assoc()) {
+            $valor += $row["valor"];
+        }
+    }
+}
 
 
-//$result = $conn->query($sql);
+$todos_produtos = implode("+" , $produtos);
 
 
-//$preco = $_GET["preco"];
+$sql = "INSERT INTO pedidos (idProduto, idCliente, valorPedido) VALUES ('$todos_produtos' ,$idcli, $valor)";
 
-//$sql = "INSERT INTO pedidos (idPedido, idProduto, idCliente, valorPedido) VALUES (, $idpro, $idcli, $valor)";
+$result = $conn->query($sql);
 
-//if (mysqli_query($conn, $sql)) {
-//    $status = "Novo Produto Cadastrado com Sucesso";
-//  } else {
-//    $status = "Error: " . $sql . "<br>" . mysqli_error($conn);
-//  }
-//mysqli_close($conn);
+if (mysqli_query($conn, $sql)) {
+    $status = "Novo Pedido foi feito";
+  } else {
+    $status = "Error: " . $sql . "<br>" . mysqli_error($conn);
+  }
+
+mysqli_close($conn);
 ?>
 <!DOCTYPE html>
 <html>
@@ -29,11 +49,11 @@ $idcli = $_GET["idcli"];
     <script></script>
 </head>
 <body>
-    <p><?php echo $idpro?></p>
+    <p><?php ?></p>
     <div style="text-align: center;">
         <script>
-            //alert("<?php //echo $status;?>");
-            //window.history.back();
+            alert("<?php echo $status;?>");
+            window.history.back();
         </script>
     </div>
 </body>
