@@ -6,7 +6,6 @@
 * País: Brasil
 * Estado: Acre
 * Curso: Sistemas de Informação
----
 
 <br>
 <br>
@@ -30,7 +29,6 @@ cancelá-las quando solicitado.
 JavaScript, html, PHP e Banco de dados (no caso o MySQL).
 2. Criar um sistema funcional próximo do que eu considero um sistema real.
 3. Desenvolver um sistema com as especificações exigidas pelo professor do curso.
----
 
 <br>
 <br>
@@ -44,7 +42,6 @@ JavaScript, html, PHP e Banco de dados (no caso o MySQL).
 > funcionário normal ainda tem a posibilidade de gerar relatorios de clientes devedores, de clientes aniversariantes, 
 > de produtos por fornecedor, de produtos em estoque, de entregas por funcionário e de entregas por determinado período.
 > Já o usuário Cliente só tem a posibilidade de gerar um pedido.
----
 
 <br>
 <br>
@@ -55,7 +52,6 @@ JavaScript, html, PHP e Banco de dados (no caso o MySQL).
 > Com o diagrama de classe podemos ver mais detalhadamente as funçoes do sistema, alem das classes, fornecedores,
 > produtos, clientes, pedidos, entregas, e pessoas, que são responsaveis por criar um objeto de cada tipo, ainda temos
 > uma classe relatórios que é responsavel por organizar e montar os relatorios solicitados pelo gerente.
----
 
 <br>
 <br>
@@ -71,7 +67,6 @@ JavaScript, html, PHP e Banco de dados (no caso o MySQL).
 >   * Cliente: cadastrar os clientes
 >   * Entrega: direcionar e consultar as entregas
 >   * Funcionário: guardar as informaçoes dos funcionários
----
 
 <br>
 <br>
