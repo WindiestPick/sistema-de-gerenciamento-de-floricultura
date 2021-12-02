@@ -34,7 +34,11 @@ JavaScript, html, PHP e Banco de dados (no caso o MySQL).
 <br>
 <br>
 
-## Casos de uso:
+## Diagramas
+
+<br>
+
+### Casos de uso:
 ![image](https://user-images.githubusercontent.com/83839805/144251088-b8be1604-583f-4585-8291-d1dfcb05f225.png)
 
 > No acasos de uso o Funcionário tem acesso as funcionalidades de cadastrar um produto, fornecedor ou um cliente, 
@@ -46,7 +50,7 @@ JavaScript, html, PHP e Banco de dados (no caso o MySQL).
 <br>
 <br>
 
-## Diagramas de Classe:
+### Diagramas de Classe:
 ![image](https://user-images.githubusercontent.com/83839805/144252911-c1a6e40c-1df0-4555-9fc4-83859117c9ff.png)
 
 > Com o diagrama de classe podemos ver mais detalhadamente as funçoes do sistema, alem das classes, fornecedores,
@@ -56,7 +60,7 @@ JavaScript, html, PHP e Banco de dados (no caso o MySQL).
 <br>
 <br>
 
-## Diagramas de Entidade e Relacionamento
+### Diagramas de Entidade e Relacionamento
 ![image](https://user-images.githubusercontent.com/83839805/144255483-20035cb4-6253-45c0-8fe9-8dc5bf8f89e2.png)
 
 > Como foi usado Banco de dados para persistir os dados do sistema se faz necessário um diagrama par explicar as
@@ -77,7 +81,7 @@ JavaScript, html, PHP e Banco de dados (no caso o MySQL).
 
 
 
-### Referencias Bibliograficas:
+## Referencias Bibliograficas:
 > w3scools - https://www.w3schools.com/ <br>
 > PHP - https://www.php.net/ <br>
 > Refactoring Guru - https://refactoring.guru/ <br>
