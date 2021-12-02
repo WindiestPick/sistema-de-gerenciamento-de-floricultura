@@ -39,7 +39,7 @@ JavaScript, html, PHP e Banco de dados (no caso o MySQL).
 <br>
 
 ### Casos de uso:
-![Gustavo-TrabalhoED CDU](https://user-images.githubusercontent.com/83839805/144425188-ce6bc6cf-a308-4ec6-8a48-16968e8a5fe3.png)
+![Gustavo-TrabalhoED CDU](https://user-images.githubusercontent.com/83839805/144426843-ab7b5794-2d4c-45b3-a138-e46ffe1f8690.png)
 
 > No acasos de uso o Funcionário tem acesso as funcionalidades de cadastrar um produto, fornecedor ou um cliente, 
 > fazer um pedido ou fazer uma entrega, como pedido pelo professor o usuário gerente alem das funcionálidades de um
@@ -51,7 +51,7 @@ JavaScript, html, PHP e Banco de dados (no caso o MySQL).
 <br>
 
 ### Diagramas de Classe:
-![Gustavo-TrablahoED ClassD](https://user-images.githubusercontent.com/83839805/144425234-96955fad-a746-4185-9cfb-e5afd0d65148.png)
+![Gustavo-TrablahoED ClassD](https://user-images.githubusercontent.com/83839805/144426503-ca3fc2d5-7def-419d-9c9b-4fbcd82b44c8.png)
 
 > Com o diagrama de classe podemos ver mais detalhadamente as funçoes do sistema, alem das classes, fornecedores,
 > produtos, clientes, pedidos, entregas, e pessoas, que são responsaveis por criar um objeto de cada tipo, ainda temos
@@ -61,7 +61,7 @@ JavaScript, html, PHP e Banco de dados (no caso o MySQL).
 <br>
 
 ### Diagramas de Entidade e Relacionamento
-![Gustavo-Trabalho do ED DB](https://user-images.githubusercontent.com/83839805/144425293-bec22380-2aff-4fc7-96e9-59ab01fcd86a.png)
+![Gustavo-Trabalho do ED DB](https://user-images.githubusercontent.com/83839805/144426542-a925bd60-4ef4-4f06-a562-b1719d4c10d6.png)
 
 > Como foi usado Banco de dados para persistir os dados do sistema se faz necessário um diagrama par explicar as
 > suas tabelas, que são:
