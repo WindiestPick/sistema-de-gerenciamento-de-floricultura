@@ -75,11 +75,42 @@ JavaScript, html, PHP e Banco de dados (no caso o MySQL).
 <br>
 <br>
 
+# Telas em Funcionamento
 
+### Como entrar no sistema:
 
+![Lotus Floricultura - Pessoal — Microsoft_ Edge 2021-12-02 21-49-37](https://user-images.githubusercontent.com/83839805/144546243-2fc52077-17fe-4b82-83f5-c6836dc537ca.gif)
 
+### Como cadastrar um fornecedor:
 
+![Lotus Floricultura - Pessoal — Microsoft_ Edge 2021-12-02 21-51-31](https://user-images.githubusercontent.com/83839805/144546432-75b62bea-b520-4fb8-8d36-51474aec5e99.gif)
 
+### Como cadastar um cliente
+
+![Lotus Floricultura - Pessoal — Microsoft_ Edge 2021-12-02 21-52-04](https://user-images.githubusercontent.com/83839805/144546496-54daef7c-d2af-4f65-9f89-5f46f507f3bb.gif)
+
+### Como cadastar um produto:
+
+![Lotus Floricultura - Pessoal — Microsoft_ Edge 2021-12-02 21-52-40](https://user-images.githubusercontent.com/83839805/144546603-f06210ff-a253-40e9-862b-d5d0e9471f18.gif)
+
+### Como fazer um pedido:
+
+![Lotus Floricultura - Pessoal — Microsoft_ Edge 2021-12-02 21-53-12](https://user-images.githubusercontent.com/83839805/144546729-516249d3-ff4d-4e2b-921e-5daab04637d9.gif)
+
+### Como cadastar um funcionário:
+
+![Lotus Floricultura - Pessoal — Microsoft_ Edge 2021-12-02 22-01-13](https://user-images.githubusercontent.com/83839805/144546816-ed284112-4d7c-4d34-bd2d-64e41bdc322a.gif)
+
+### Como definir uma entrega a um funcionário:
+
+![Lotus Floricultura - Pessoal — Microsoft_ Edge 2021-12-02 23-14-04](https://user-images.githubusercontent.com/83839805/144546959-9f31a17a-07f7-437f-9b49-b54c50750cf5.gif)
+
+### Como cancelar uma entrega:
+
+![Lotus Floricultura - Pessoal — Microsoft_ Edge 2021-12-02 23-14-37](https://user-images.githubusercontent.com/83839805/144546982-58c13b91-3e56-461a-9ef6-37588750a342.gif)
+
+<br>
+<br>
 
 ## Referencias Bibliograficas:
 > w3scools - https://www.w3schools.com/ <br>
