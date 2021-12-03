@@ -1,4 +1,4 @@
-class Entregas{
+export class Entregas{
     constructor(funcionario, pedido, status){
         this.funcionario = funcionario;
         this.pedido = pedido;

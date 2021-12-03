@@ -1,13 +1,14 @@
-
 export class Pedido{
-    constructor(id, dataPedido, status, arranjo, valorTotal){
+    constructor(id, idProduto, idCliente, valorTotal){
         this.idPedido = id;
-        this.dataPedido = dataPedido;
-        this.status = status;
-        this.arranjo = arranjo;
+        this.idProduto = idProduto;
+        this.idCliente = idCliente;
         this.valorTotal = valorTotal;
     }
-    statusDoPedido(){
-        return this.status;
+    set status(texto){
+        this._status=texto;
+    }
+    get status(){
+        return this.status
     }
 }

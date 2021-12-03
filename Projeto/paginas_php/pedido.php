@@ -29,7 +29,6 @@ $todos_produtos = implode("+" , $produtos);
 
 $sql = "INSERT INTO pedidos (idProduto, idCliente, valorPedido) VALUES ('$todos_produtos' ,$idcli, $valor)";
 
-$result = $conn->query($sql);
 
 if (mysqli_query($conn, $sql)) {
     $status = "Novo Pedido foi feito";

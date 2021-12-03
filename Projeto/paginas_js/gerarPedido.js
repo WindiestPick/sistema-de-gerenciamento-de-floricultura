@@ -23,6 +23,9 @@ function criaGerente(){
     gerente.cadastarProduto(menu);
     gerente.geraPedido(menu);
     gerente.cadastraFuncionario(menu);
+    gerente.cancelarEntregas(menu);
+    gerente.direcionaEntrega(menu);
+    gerente.gerarRelatorio(menu);
 }
 
 function criaCliente(){
